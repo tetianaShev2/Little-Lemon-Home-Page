@@ -1,0 +1,88 @@
+body {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+header {
+  background-image: url(img/restaurant\ table.jpeg);
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Pontano Sans", sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  color: #feffdf;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-left: 40rem;
+}
+nav li {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+nav li a {
+  text-decoration: none;
+  color: #feffdf;
+  padding: 1rem 1rem;
+}
+nav li a:hover {
+  color: #495e57;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+article {
+  flex: 1;
+}
+footer {
+  display: flex;
+}
+footer div {
+  flex: 1;
+  margin: 1rem 2rem;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.branding img {
+  display: block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.promotion {
+  border: 1px solid #495e57;
+  border-radius: 6px;
+  max-width: 60%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 2rem 2rem;
+  background-color: rgb(0, 0, 0, 60%);
+}
+.promotion h1 {
+  color: #feffdf;
+  font-family: "Pontano Sans", sans-serif;
+}
+.promotion p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.menu {
+  margin: 2rem 2.5rem;
+}
+.menu h2 {
+  color: #dde0ab;
+}
